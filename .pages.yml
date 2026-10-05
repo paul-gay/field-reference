@@ -1,0 +1,53 @@
+# Pages CMS configuration (https://pagescms.org)
+media: false
+content:
+  - name: entries
+    label: Entries
+    type: collection
+    path: content/entries
+    filename: "{primary}.md"
+    view:
+      fields: [title, category, source]
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: category
+        label: Category
+        type: select
+        options:
+          creatable: true
+          values: [Cameras, Lenses, Technique, Fundamentals, History, Products, Selling, "Brand & Company", Accuracy, "Career & Management", "Luxury playbook", Glossary]
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: source
+        label: Source
+        type: string
+      - name: summary
+        label: Summary (one line shown in search results)
+        type: text
+      - name: body
+        label: Body (Markdown)
+        type: text
+  - name: quiz
+    label: Quiz cards
+    type: collection
+    path: content/quiz
+    filename: "{primary}.md"
+    view:
+      fields: [question, deck]
+    fields:
+      - name: question
+        label: Question
+        type: string
+        required: true
+      - name: answer
+        label: Answer
+        type: text
+        required: true
+      - name: deck
+        label: Deck
+        type: string

@@ -1,0 +1,12 @@
+{
+  "name": "field-reference",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/build.mjs && npx --yes serve dist"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  }
+}

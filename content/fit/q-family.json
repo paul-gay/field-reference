@@ -1,0 +1,139 @@
+{
+  "name": "Q family",
+  "order": 1,
+  "shared": "",
+  "products": [
+    {
+      "id": "q3",
+      "name": "Q3",
+      "forWho": "Travel, places and everyday life: the whole scene.",
+      "chooseIf": [
+        "You photograph moments with context around them",
+        "You want macro for close details like food, textures or a watch dial",
+        "You like framing tighter in camera at 35, 50, 75 or 90mm"
+      ],
+      "facts": [
+        [
+          "Lens",
+          "Summilux 28 f/1.7 ASPH."
+        ],
+        [
+          "Sensor",
+          "60MP full frame, Triple Resolution"
+        ],
+        [
+          "Records",
+          "Color"
+        ],
+        [
+          "Close focus",
+          "17cm in macro mode"
+        ],
+        [
+          "In camera framing",
+          "35, 50, 75, 90mm"
+        ],
+        [
+          "Video",
+          "Up to 8K"
+        ]
+      ],
+      "focal": 28,
+      "mono": false
+    },
+    {
+      "id": "q3-43",
+      "name": "Q3 43",
+      "forWho": "Mostly people, or anyone who finds 28mm too wide.",
+      "chooseIf": [
+        "Portraits of family, friends and partners are what you love",
+        "You want a natural perspective close to how the eye sees",
+        "You care about APO color correction and sharpness"
+      ],
+      "facts": [
+        [
+          "Lens",
+          "APO-Summicron 43 f/2 ASPH."
+        ],
+        [
+          "Sensor",
+          "60MP full frame, Triple Resolution"
+        ],
+        [
+          "Records",
+          "Color"
+        ],
+        [
+          "In camera framing",
+          "60, 75, 90, 120, 150mm"
+        ],
+        [
+          "Video",
+          "Up to 8K"
+        ]
+      ],
+      "focal": 43,
+      "mono": false
+    },
+    {
+      "id": "q3-monochrom",
+      "name": "Q3 Monochrom",
+      "forWho": "Black and white devotees and street photographers.",
+      "chooseIf": [
+        "You already see and shoot mostly in black and white",
+        "You want the tonal depth of a sensor made only for light and shadow",
+        "You like a discreet, all black camera with no red dot"
+      ],
+      "facts": [
+        [
+          "Lens",
+          "Summilux 28 f/1.7 ASPH."
+        ],
+        [
+          "Sensor",
+          "60MP full frame, Triple Resolution, no color filter"
+        ],
+        [
+          "Records",
+          "Black and white only"
+        ],
+        [
+          "Close focus",
+          "17cm in macro mode"
+        ],
+        [
+          "In camera framing",
+          "35, 50, 75, 90mm"
+        ],
+        [
+          "Video",
+          "Black and white, up to 8K"
+        ],
+        [
+          "ISO",
+          "100 to 200,000"
+        ],
+        [
+          "Content Credentials",
+          "Yes, the first Q with it"
+        ]
+      ],
+      "focal": 28,
+      "mono": true
+    }
+  ],
+  "pairs": {
+    "q3|q3-43": "Same camera, a different way of seeing. The Q3 takes in the whole scene at 28mm; the Q3 43 sees closer to how your eye does.",
+    "q3|q3-monochrom": "Same lens and body. The Q3 records color; the Q3 Monochrom is devoted entirely to black and white.",
+    "q3-43|q3-monochrom": "Two different choices at once: the Q3 43 sees at a natural 43mm, in color; the Q3 Monochrom sees wide at 28mm, in black and white only."
+  },
+  "question": "Are the photos you love wide scenes or closer portraits? Color, or black and white?",
+  "demo": "Photograph the same person from the same spot with each camera. Show both at full size and let them choose.",
+  "sharedTags": [
+    "Q3 body",
+    "60MP full frame",
+    "Autofocus",
+    "8K video",
+    "Weather sealed"
+  ]
+}
