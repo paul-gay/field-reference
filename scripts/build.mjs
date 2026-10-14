@@ -1,4 +1,4 @@
-// Builds the site: reads content/ and writes dist/index.html + dist/data.json
+// Builds the site: reads content/, copies src/ (page, app icons, offline helper) and writes dist/data.json
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
@@ -46,6 +46,8 @@ const data = {
   entries, quiz, fit,
 };
 fs.writeFileSync(path.join(out, "data.json"), JSON.stringify(data));
-fs.copyFileSync("src/index.html", path.join(out, "index.html"));
+fs.cpSync("src", out, { recursive: true });
+const swPath = path.join(out, "sw.js");
+if (fs.existsSync(swPath)) fs.writeFileSync(swPath, fs.readFileSync(swPath, "utf8").replace("__VERSION__", data.built));
 fs.writeFileSync(path.join(out, ".nojekyll"), "");
 console.log(`Built ${Object.keys(entries).length} entries, ${Object.keys(quiz).length} quiz cards, ${Object.keys(fit).length} fit families.`);

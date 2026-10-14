@@ -47,3 +47,7 @@ Requires Node.js 20 or later:
 npm install
 npm run preview
 ```
+
+## On your phone
+
+Open the site in Safari (iPhone) or Chrome (Android), then Share > Add to Home Screen (Android: menu > Install app). It opens full screen like an app, with tabs along the bottom. After the first open it keeps a copy on the phone, so it still works with weak or no signal; when you're online it quietly picks up your latest edits.
